@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    main {
+        width: 350px;
+        height: 330px;
+        padding: 0px;
+    }
+
+    .titulo {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .content p {
+        font-size: 22px;
+    }
+}
