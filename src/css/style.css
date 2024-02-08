@@ -15,6 +15,7 @@ main {
     width: 500px;
     height: 300px;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .content {
@@ -22,7 +23,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    text-align: center;  
+    position: relative;
+    padding: 25px 0px;
 }
 
 .titulo {
@@ -30,28 +32,22 @@ main {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-top: 25px;
 }
 
 p {
     color: var(--text-color);
     width: 80%;
-    font-size: 25px;
-    padding: 30px;
+    font-size: 24px;
+    text-align: center;
 }
 
 .botao {
-    background-color: var(--advice-botao-color);
+    background:var(--advice-botao-color) url(../images/icon-dice.svg) no-repeat center center;
     border: none;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    transform: translateY(55%);
-
-}
-
-.icone {
-    border: none;
-    background-color: transparent;
-    transform: translateY(65%);
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(250%)
 }
